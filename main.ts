@@ -2,6 +2,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     projectile = sprites.createProjectileFromSprite(assets.image`firework2`, spacePlane, 200, 0)
 })
 let hogey: Sprite = null
+let abc: Sprite = null
 let projectile: Sprite = null
 let spacePlane: Sprite = null
 spacePlane = sprites.create(assets.image`plane0`, SpriteKind.Player)
